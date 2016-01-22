@@ -56,7 +56,7 @@ Amazon Echo Skills use *Intents* to define the incoming data from the voice requ
      "slots": [
         {
           "name":"temperature",
-          "type":"AMAZON.NUMBER"
+          "type":"TEMPERATURES"
         },
         {
           "name":"fanSpeed",
@@ -71,6 +71,40 @@ Amazon Echo Skills use *Intents* to define the incoming data from the voice requ
   ]
 }
 
+```
+
+Custom Slot Types
+-----------------
+
+For the Temperature
+#### TEMPERATURES
+```
+fifteen
+sixteen
+seventeen
+eighteen
+nineteen
+twenty
+twenty one
+twenty two
+twenty three
+twenty four
+twenty five
+twenty six
+twenty seven
+twenty eight
+twenty nine
+twenty thirty
+```
+
+For the Fan
+#### LIST_OF_LEVELS
+
+```
+high
+medium
+low
+off
 ```
 
 
